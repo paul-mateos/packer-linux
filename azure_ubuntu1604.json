@@ -2,13 +2,14 @@
   "builders": [{
     "type": "azure-arm",
 
-    "client_id": "f5b6a5cf-fbdf-4a9f-b3b8-3c2cd00225a4",
-    "client_secret": "0e760437-bf34-4aad-9f8d-870be799c55d",
-    "tenant_id": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-    "subscription_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx",
+    "client_id": "8a7cca9d-d03b-4bed-9fc5-c3ed95011b03",
+    "client_secret": "P@ssw0rd!",
+    "tenant_id": "8c03f01b-2bc7-4385-81cf-100ab4c44d56",
+    "subscription_id": "dacd76e6-dc65-4b18-af52-0e04a97e51dd",
+    "object_id": "35375e8f-87da-44ef-a52f-3371e84f04fc",
 
-    "managed_image_resource_group_name": "myResourceGroup",
-    "managed_image_name": "myPackerImage",
+    "managed_image_resource_group_name": "crownResourceGroup",
+    "managed_image_name": "crownPackerLinuxImage",
 
     "os_type": "Linux",
     "image_publisher": "Canonical",
